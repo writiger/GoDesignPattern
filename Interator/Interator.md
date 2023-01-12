@@ -121,7 +121,7 @@ func (bs *BookShelf) AppendBook(book Book) {
 }
 
 func (bs *BookShelf) Iterator() interface{} {
-	return InitBookShellIterator(bs)
+	return InitBookShelfIterator(bs)
 }
 
 ```

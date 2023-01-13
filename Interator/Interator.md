@@ -177,3 +177,4 @@ func (bsi *BookShelfIterator) Next() interface{} {
 * 跳跃式遍历
 * ...
 
+https://github.com/writiger/GoDesignPattern

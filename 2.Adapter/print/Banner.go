@@ -1,8 +1,12 @@
 package print
 
-import "fmt"
+import (
+	_interface "Adapter/interface"
+	"fmt"
+)
 
 type Banner struct {
+	_interface.Print
 	Info string
 }
 

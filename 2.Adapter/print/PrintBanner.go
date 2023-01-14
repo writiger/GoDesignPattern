@@ -1,6 +1,9 @@
 package print
 
+import _interface "Adapter/interface"
+
 type PrintBanner struct {
+	_interface.Print
 	Banner Banner
 }
 

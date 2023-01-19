@@ -10,10 +10,7 @@ type HtmlBuilder struct {
 func InitHtmlBuilder(name string) *HtmlBuilder {
 	filename := name + ".html"
 	var f *os.File
-	if _, err := os.Stat(filename); err != nil {
-		f, _ = os.OpenFile(filename, os.O_WRONLY|os.O_TRUNC|os.O_CREATE, 0644)
-	}
-	f, _ = os.Create(filename)
+	f, _ = os.OpenFile(filename, os.O_WRONLY|os.O_TRUNC|os.O_CREATE, 0644)
 	return &HtmlBuilder{name: name, fileP: f}
 }
 

@@ -2,7 +2,7 @@ package main
 
 import "9.Bridge/bridge"
 
-func main() {
+func main() { 
 	sd1 := bridge.InitStringDisplay("Hello,China.")
 	sd2 := bridge.InitStringDisplay("Hello,World.")
 	sd3 := bridge.InitStringDisplay("Hello,Universe.")
